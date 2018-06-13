@@ -1,0 +1,49 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo1"
+    tools:context="com.example.quezada.curriculum.ReferenciasPersonales">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="40dp"
+            android:text="REFERENCIAS PERSONALES"
+            android:textSize="30sp"
+            android:textColor="@color/letras"/>
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView15"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="48dp"
+            android:text="MPC. Fausto González San Martin \nGerente de Producción Alimentsa \nTeléfono: 0994347169 – 3711290 ext. 213 \nfgonzalez@alimentsa.com "
+            android:textColor="@color/letras"/>
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView4"
+            android:layout_alignStart="@+id/textView4"
+            android:layout_below="@+id/textView4"
+            android:layout_marginLeft="55dp"
+            android:layout_marginStart="55dp"
+            android:layout_marginTop="71dp"
+            android:text="Ing. Luis Briones Ortiz \nProfesor de Matemáticas \nFacultad de Ciencias Matemáticas \n“Universidad de Guayaquil” \nTeléfono: 0997168711"
+            android:textColor="@color/letras"/>
+
+    </RelativeLayout>
+</FrameLayout>
